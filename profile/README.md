@@ -22,19 +22,11 @@ Our goal is to make every conversation useful: discoverable, private when it nee
 - Integrations and developer-friendly APIs
 - Scalable deployment model for teams of all sizes
 
-## Architecture Overview
-- Frontend: React + TypeScript — a responsive single-page web client that prioritizes usability and accessibility.
-- Backend: Node.js — a modular API and real-time service that handles authentication, message persistence, and event routing.
-- Web server / Proxy: NGINX — used in production for SSL termination, caching, and load balancing.
-- Real-time transport: WebSockets (or an equivalent real-time layer) for instant updates.
-- Deployment: Container-friendly (Docker/Kubernetes patterns) and designed for horizontal scaling.
-
 ## Security & Privacy
 We design Slate to treat security and privacy seriously:
 - Transport-layer encryption (TLS) in transit
 - Access controls and role-based permissions
 - Secure handling of files and user data
-(Implementation details depend on deployment and configuration.)
 
 ---
 
